@@ -27,7 +27,7 @@ TBA
   * meaning that DB tables and mocks would be applied automatically and we could test queries without need to instal PostgreSQL server on our machine;
 * Performance tests;
 * Simple .NET API which allows to execute SQL queries on output data;
-  * We recommend to use `Swagger` for easier API request testing;
+  * Use `Swagger` for easier API request testing;
 
 # Time for solution
 
