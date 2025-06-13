@@ -10,10 +10,10 @@ TBA
 * TBA
 
 ## Non-Functional
-* Mock data to main input tables:
+* **Mock** data to main input tables:
   * `users` table: 10 000 rows;
-  * `products` table: 5 000 rows; 
-  * `orders` table: 80 000 rows;
+  * `products` table: 8 000 rows; 
+  * `orders` table: 100 000 rows;
     * Order should contain amount of each product that was ordered;
     * Orders should contain only existing products;
     * Number of different products in single order should vary from 1 to 100;
