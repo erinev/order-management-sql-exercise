@@ -33,7 +33,7 @@ Your task is to build an database that stores information related with customers
   * `orders` table: 100 000 rows;
     * Number of different products in single order should vary from 1 to 100;
     * Amount of single product inside single should vary from 1 to 50;
-    * Make sure data integrity is not violated (e.g.: order contains product which does not exist)
+    * Make sure data integrity is not violated
 * **Performance optimization**;
   * Any type of optimization which would make queries (**reads**) complete faster;
   * Also think about implication to **writes** performance;
