@@ -45,6 +45,7 @@ Your task is to build a database that stores information related to customers, p
 * **Performance tests**;
 * **Simple .NET API** which allows executing SQL queries for **order's invoice** and **report about orders distribution**;
     * Use `Swagger` for easier API request testing;
+* **Automated tests**;
 
 ## Time for Solution
 
