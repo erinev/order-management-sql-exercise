@@ -42,6 +42,8 @@ Your task is to build a database that stores information related to customers, p
 
 * **Docker-Compose** for easy local testing;
     * meaning that DB tables and mocks would be applied automatically and we could test queries without needing to install PostgreSQL server on our machine;
+* **Progress of your work** (hint - `commits strategy`);
+* **Comments/thoughts** on the decisions you made;
 * **Performance tests**;
 * **Simple .NET API** which allows executing SQL queries for **order's invoice** and **report about orders distribution**;
     * Use `Swagger` for easier API request testing;
