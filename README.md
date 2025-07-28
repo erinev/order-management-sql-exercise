@@ -8,7 +8,8 @@ Your task is to build a database that stores information related to customers, p
 
 ## Requirements
 
-*Hint*: Some requirements are open-ended so you can implement them in a way that you think would be most convenient for the database user.
+> **Hint**:  
+Some requirements are open-ended so you can implement them in a way that you think would be most convenient for the database user or is considered a best practice.
 
 ### Functional
 
