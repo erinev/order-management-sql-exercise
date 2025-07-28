@@ -27,6 +27,7 @@ Your task is to build a database that stores information related to customers, p
 * The solution code must be in a **Git repository**;
 * Use **PostgreSQL** database;
 * Include prerequisites, steps to launch and provide SQL query examples in **README**;
+* Your solution should follow **best practices in relational database design**.
 * **Mock** data in the main input tables:
     * `customers` table: 10,000 rows;
     * `products` table: 8,000 rows; 
