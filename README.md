@@ -17,9 +17,8 @@ Some requirements are open-ended so you can implement them in a way that you thi
     * `details` column contains data about customer location and must be stored using **JavaScript Object Notation** (JSON) e.g.: ``` { "country": "Lithuania", "city": "Kaunas" } ```
 * As a retailer I need a **database table(s)** so I could manage **products**. Each product must have the following info: `name`, `category` and `price`;
 * As a retailer I need a **database table(s)** so I could manage **orders**. Each order must contain the following info: `customer who made order`, `list of ordered products with quantity of each ordered item`;
-* As a retailer I need an **SQL query** so I could retrieve an **order's invoice**. The invoice should contain a list of products where **each product** has `name`, `category`, `quantity`, `amount ($)` and additionally show `total amount ($)` to pay for all products.
-    * It should be possible to perform **partial text search** by product `name` and `category` columns;
-* As a retailer I need an **SQL query** so I could retrieve a **report about orders distribution by customer location**. The report should show the `customer city`, `number of orders` that were made from this city and `total amount ($)` of ordered products from this city;
+* As a retailer I need an **SQL query(ies)** so I could retrieve an **order's invoice**. The invoice should contain a list of products where **each product** has `name`, `category`, `quantity`, `amount ($)` and additionally show `total amount ($)` to pay for all products.
+* As a retailer I need an **SQL query(ies)** so I could retrieve a **report about orders distribution by customer location**. The report should show the `customer city`, `number of orders` that were made from this city and `total amount ($)` of ordered products from this city;
     * It should be possible to **filter** by `customer city` column;
     * It should be possible to **order** by `number of orders` column;
 
