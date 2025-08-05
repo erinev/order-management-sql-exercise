@@ -28,10 +28,10 @@ Some requirements are open-ended so you can implement them in a way that you thi
 * Use **PostgreSQL** database;
 * Include prerequisites, steps to launch and provide SQL query examples in **README**;
 * Your solution should follow **best practices in relational database design**.
-* **Mock** data in the main input tables:
-    * `customers` table: 10,000 rows;
-    * `products` table: 8,000 rows; 
-    * `orders` table: 100,000 rows;
+* **Mock** data in the tables:
+    * 10,000 `customers`;
+    * 8,000 `products`; 
+    * 100,000 `orders`;
         * Number of different products in a single order should vary from 1 to 100;
         * Amount of a single product inside a single order should vary from 1 to 50;
         * Make sure data integrity is not violated (e.g., an order should contain only existing products);
