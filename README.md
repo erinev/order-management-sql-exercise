@@ -47,7 +47,7 @@ Some requirements are open-ended so you can implement them in a way that you thi
 * **Progress of your work** (hint - `commits strategy`);
 * **Comments/thoughts** on the decisions you made;
 * **Performance tests**;
-* **Simple .NET API** which has single endpoint to retrieve **order's invoice** information that is defined in functional requirements;
+* **Simple .NET API** which has single endpoint to retrieve **order's invoice** (same as in functional requirements);
     * Use `Swagger` for easier API request testing;
     * **Logging** (hint: Serilog);
     * Code is structured using some known **architecture** (e.g., NTier, Onion, etc.);
