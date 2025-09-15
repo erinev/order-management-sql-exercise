@@ -49,11 +49,9 @@ Some requirements are open-ended so you can implement them in a way that you thi
 * **Performance tests**;
 * **Simple .NET API** which has single endpoint to retrieve **order's invoice** (same as in functional requirements);
     * Use `Swagger` for easier API request testing;
-    * **Logging** (hint: Serilog);
     * Code is structured using some known **architecture** (e.g., NTier, Onion, etc.);
     * **REST**ful API;
 * **Automated tests**;
-  * **Continuous integration** (CI. hint - `GitHub Actions`;
 
 ## Time for Solution
 
