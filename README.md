@@ -27,6 +27,8 @@ Some requirements are open-ended so you can implement them in a way that you thi
 * The solution code must be in a **Git repository**;
 * Use **PostgreSQL** database;
 * Include prerequisites, steps to launch and provide SQL query examples in **README**;
+* Setup **Docker-Compose** for easy local testing;
+    * meaning that DB tables and mocks would be applied automatically and we could test queries without needing to install PostgreSQL server on our machine;
 * Your solution should follow **best practices in relational database design**.
 * **Mock** data in the tables:
     * 10,000 `customers`;
@@ -41,8 +43,6 @@ Some requirements are open-ended so you can implement them in a way that you thi
 
 ### Bonus Points
 
-* **Docker-Compose** for easy local testing;
-    * meaning that DB tables and mocks would be applied automatically and we could test queries without needing to install PostgreSQL server on our machine;
 * **Pagination support**
 * **Progress of your work** (hint - `commits strategy`);
 * **Comments/thoughts** on the decisions you made;
